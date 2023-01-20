@@ -1,0 +1,14 @@
+const notas = [10, 6.5, 8, 7.5];
+
+let somaDasNotas = 0;
+
+//Percorre o array
+for(let nota of notas){
+    somaDasNotas += nota;
+    //console.log(somaDasNotas);
+}
+
+const media = somaDasNotas / notas.length;
+
+console.log(`A soma das notas é ${somaDasNotas} e a media é ${media}`);
+
